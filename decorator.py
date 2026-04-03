@@ -2,8 +2,7 @@ def decorator(func):
     def inner(*args,**kwargs):
         print("before function run")
         result = func(*args,**kwargs)
-        print("after function run")
-    return inner
+        print("after function run")    return inner
 
 @decorator
 def simple():
@@ -36,3 +35,4 @@ print("Second largest number", second_large)
 print("first largest number", first_large)
 
 
+print("Updated branch")
