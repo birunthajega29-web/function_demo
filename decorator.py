@@ -2,7 +2,8 @@ def decorator(func):
     def inner(*args,**kwargs):
         print("before function run")
         result = func(*args,**kwargs)
-        print("after function run")    return inner
+        print("after function run")
+    return inner
 
 @decorator
 def simple():
@@ -13,6 +14,7 @@ simple()
 # li=[10,30,40,50,20]
 # li.sort()
 # print(li[-2])
+
 
 
 li=[10,30,40,29,89.0,48,65,50]
