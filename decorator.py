@@ -16,6 +16,7 @@ simple()
 # print(li[-2])
 
 
+
 li=[10,30,40,29,89.0,48,65,50]
 
 # for i in range(len(li)-1):
